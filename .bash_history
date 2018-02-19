@@ -62,3 +62,15 @@ git config --global user.email "jessy.yameogo@gmail.com"
 git config --global user.name "JessYam"
 git push -u origin master
 git add .
+git commit -am "completed first lab"
+git push -u origin master
+git remote add origin https://github.com/jyameo/Gcloud-Machine-Learning-API.git
+git remote -v
+git remote rm origin
+git remote add origin https://github.com/jyameo/Gcloud-Machine-Learning-API.git
+git push -u origin master
+ls
+mkdir lab1
+mv *.json lab1/
+ls
+git add .
